@@ -3,8 +3,6 @@
     //Hamburger Open Style
     &.open {
 
-       
-
         .header__toggle {
 
             > span:first-child {
@@ -66,8 +64,6 @@
                 margin-bottom: 5px;
             }
         }
-
-       
     }
 
     &__menu {
@@ -135,20 +131,6 @@
 
                 }
             }
-        }
-    }
-
-    &__cta {
-        font-size: $font_sm;
-        color: $white;
-        transition: opacity 300ms ease-in-out;
-
-        a {
-            color: $white;
-        }
-
-        &:hover {
-            opacity: 0.75;
         }
     }
 }
