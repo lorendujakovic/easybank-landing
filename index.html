@@ -19,12 +19,15 @@
 <body>
 
   <header class="header">
-    <nav class="flex flex-jc-sb flex-ai-c">
+    <div class="overlay has-fade">
+      
+    </div>
+    <nav class="container flex flex-jc-sb flex-ai-c">
       <a href="#" class="header__logo">
           <img src="./assets/images/logo.svg" alt="Easybank">
       </a>
 
-      <a href="#" class="header__menu hide-for-desktop">
+      <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
         <span></span>
         <span></span>
         <span></span>
@@ -42,9 +45,17 @@
         <a class="" href="#">Request Invite</a>
       </button>
     </nav>
+
+    <div class="header__menu has-fade">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Blog</a>
+      <a href="#">Careers</a>
+    </div>
   </header>
 
-  <!-- 
+
  
 
   
@@ -119,7 +130,7 @@
 
   Request Invite
 
-  © Easybank. All Rights Reserved -->
+  © Easybank. All Rights Reserved 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
