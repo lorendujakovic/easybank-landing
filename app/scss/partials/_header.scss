@@ -22,6 +22,8 @@
     .overlay {
         opacity: 0;
 
+        z-index: 1;
+
         position: fixed;
         top: 0;
         right: 0;
@@ -33,6 +35,9 @@
 
     nav {
         position: relative;
+
+        z-index: 3;
+
         background-color: $white;
         padding-top: 1.0625rem;
         padding-bottom: 1.0625rem;
@@ -68,6 +73,9 @@
 
     &__menu {
         position: absolute;
+
+        z-index: 2;
+        
         left: 50%;
         transform: translateX(-50%);
 
