@@ -1,13 +1,10 @@
 .footer {
-
     padding: 2.5rem;
 
     background-color: $darkBlue;
 
     color: $white;
     text-align: center;
-
-   
 
     .container {
         @include breakpoint-up(large) {
@@ -45,6 +42,11 @@
             margin-bottom: 1.875rem;
         }
 
+        @include breakpoint-up(large){
+            grid-area: social;
+            align-self: end;
+        }
+
         a {
             display: inline-block;
             height: 1.25rem;
@@ -62,11 +64,6 @@
             margin-right: 1rem;
         }
 
-        @include breakpoint-up(large){
-            grid-area: social;
-            align-self: end;
-        }
-
     }
 
 
@@ -74,6 +71,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
         font-size: 0.9375rem;
 
         @include breakpoint-up(large) {
@@ -109,7 +107,6 @@
     }
 
     &__cta {
-
 
         @include breakpoint-up(large){
             grid-area: cta;

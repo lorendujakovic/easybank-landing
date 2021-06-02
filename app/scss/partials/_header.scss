@@ -1,5 +1,4 @@
 .header {
-
     //Hamburger Open Style
     &.open {
 
@@ -20,27 +19,28 @@
     }
 
     .overlay {
-        opacity: 0;
-
-        z-index: 1;
-
         position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        
+
+        opacity: 0;
+
+        z-index: 1;
+
         background-image: linear-gradient( $darkBlue, transparent);
     }
 
     nav {
         position: relative;
 
+        padding-top: 1.0625rem;
+        padding-bottom: 1.0625rem;
+
         z-index: 3;
 
         background-color: $white;
-        padding-top: 1.0625rem;
-        padding-bottom: 1.0625rem;
     }
 
     &__logo {
@@ -74,10 +74,10 @@
     &__menu {
         position: absolute;
 
-        z-index: 2;
-        
         left: 50%;
         transform: translateX(-50%);
+
+        z-index: 2;
 
         width: calc(100% - 3rem);
 
