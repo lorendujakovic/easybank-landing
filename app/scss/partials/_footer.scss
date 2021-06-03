@@ -1,7 +1,7 @@
 .footer {
     padding: 2.5rem;
 
-    background-color: $darkBlue;
+    background-color: $bg-footer;
 
     color: $white;
     text-align: center;
@@ -85,7 +85,7 @@
             transition: color 150ms ease-in-out;
             
             &:hover {
-                color: $limeGreen;
+                color: $bg-btn-primary;
             }
         }
 
@@ -124,7 +124,7 @@
 
     &__copyright {
         font-size: 0.8125rem;
-        color: $grayishBlue;
+        color: $typo-primary;
 
         @include breakpoint-up(large){
             grid-area: copyright;
