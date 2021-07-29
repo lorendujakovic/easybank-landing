@@ -134,10 +134,16 @@
     }
 }
 
-.attribution { 
-    font-size: 11px; text-align: center; 
+.attribution  { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem; 
 
-    a {
+    height: 5vh;
+
+    & a { 
+        
         color: hsl(228, 45%, 44%); 
     }
 }
